@@ -1,0 +1,1 @@
+docker-compose --file $PSScriptRoot/docker-compose.yml up --detach --force-recreate

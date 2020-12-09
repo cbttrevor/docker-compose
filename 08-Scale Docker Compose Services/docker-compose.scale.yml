@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  nginx:
+    build: nginx
+  proxy:
+    build: caddy
+    ports:
+      - 8888:80

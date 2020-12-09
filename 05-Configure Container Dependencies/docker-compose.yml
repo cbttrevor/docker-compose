@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  wordpress:
+    image: wordpress
+    depends_on:
+      - db
+      - redis
+  db:
+    image: mysql
+  redis:
+    image: redis

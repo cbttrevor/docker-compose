@@ -1,0 +1,1 @@
+docker-compose --file $PSScriptRoot/docker-compose.build.yml up --detach
